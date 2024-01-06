@@ -58,7 +58,7 @@ export default function Page({}: Props) {
   };
 
   return (
-    <div className=" md:px-0 px-4 md:w-9/12 w-full  mt-16 mx-auto">
+    <div className="  md:w-9/12 w-full  mt-16 mx-auto">
       <p className=" flex  text-2xl  text-black/90 font-medium  mb-4 ml-4">{name}</p>
       <ResultContainer
         playing={playing}
