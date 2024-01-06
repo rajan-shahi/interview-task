@@ -16,7 +16,7 @@ export default function LogoButton({ search }: Props) {
         disabled={search === ""}
         className=" w-full">
         <div className=" w-full flex  flex-col ">
-          <div className=" absolute z-20 md:-mt-20  -mt-10 md:ml-16 ml-5   border-2 border-blue-600 rounded-full p-1 w-max">
+          <div className=" absolute z-20 md:-mt-20  -mt-14 md:ml-16 ml-1   border-2 border-blue-600 rounded-full p-1 w-max">
             <Image
               className=" md:h-40 md:w-40 h-20 w-20 object-cover rounded-full"
               src={Logo}
